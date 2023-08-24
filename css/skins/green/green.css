@@ -1,5 +1,8 @@
 /* Backgrounds ----------------------------------------------------------*/
+.box-action,
+
 .sf-menu li li a:hover,
+.box-action .title:before,
 .box-action .button,
 .item-service:hover .head-service i,
 .item-service-carousel .color,
@@ -61,6 +64,7 @@ footer .btn-primary:hover,
 }
 
 /* Colors ----------------------------------------------------------*/
+
 .info-head ul li a:hover,
 .footer-center .item-center:hover i,
 .pagination > li > a, .pagination > li > span,

@@ -189,7 +189,10 @@ a.btn{
 	padding-left: 0 !important;
 }
 .paddings{
-	padding: 70px 0 !important;
+	padding: 60px 0 !important;
+}
+.gap10{
+padding: 20px;
 }
 .paddings-large{
 	padding: 200px 0;
@@ -429,6 +432,10 @@ div.fontawesome-icon-list a{
 .border_bottom{
 	border-bottom: 1px solid #eee;
 }
+/* padding */
+.gap10{
+	height: 10vh;
+}
 
 /* Parallax Secion --------------------------*/
 .image_01_parallax{
@@ -514,6 +521,13 @@ div.fontawesome-icon-list a{
   left: 0;
   min-width: 100%;
 }
+/* divide into 5 part paragrapg */
+.newspaper {
+	column-count: 5;
+	column-gap: 60px;
+	column-rule: 10px solid lightblue;
+  }
+
 
 /* Title Heading ---------------------------------------------*/
 .titles-heading{
@@ -521,7 +535,7 @@ div.fontawesome-icon-list a{
 	text-align: center;
 }
 .titles-heading h1{
-	background-color: #fff;
+	background-color: none;
 	margin: 0 auto;
 	width: 28%;
 	font-size: 34px;
@@ -986,16 +1000,16 @@ header{
 
 /*  Box Action ----------------------------------------------*/
 .box-action{
-	background-color: #27292B;	
+	background-color: #057af095;	
 	text-align: center;
 }
 .box-action .title{
-	width: 75%;
+	width: 0%;
 	float: left;
-	padding: 10px;
+	padding: 2px;
 	position: relative;
 }
-.box-action .title:before {
+/* .box-action .title:before {
   content: '';
   right: -30px;
   position: absolute;
@@ -1004,8 +1018,8 @@ header{
   margin-top: -30px;
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
-  border-left: 30px solid #27292B;
-}
+  border-left: 30px solid #e1ff00;
+} */
 .box-action p{
 	color: #fff;
 	padding: 18px 0;
@@ -1262,18 +1276,18 @@ header{
 .boxes-info{
 	background-color: #fff;
 	text-align: left;
-	padding: 20px;
-	border: solid 1px #dedede;
+	padding: 15px;
+	border: solid 1px #ffffff;
 }
 .boxes-info h3{
-	font-weight: 800;
+	font-weight: 600;
 	color: #333 !important;
 }
 .boxes-info h3 i{
 	float: right;
 	color: #666;
 	font-size: 40px;
-	margin-top: -5px;
+	margin-top: -15px;
 }
 .boxes-info h5{
 	padding: 10px 0;
