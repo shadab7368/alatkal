@@ -1401,6 +1401,12 @@ header{
 	color: #fff;
 	font-size: 2em;
 }
+.text-light{
+color: #ffff;
+}
+.text-bold{
+	font-weight: bold;
+}
 
 /* Lates Post And Testimonials -----------------------------------------------------*/
 .post-testimonials h3{
