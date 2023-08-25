@@ -1572,7 +1572,15 @@ header{
 
 /* Footer -----------------------------------------------------*/
 footer{
-	background-color: #191919;	
+	background-color: #0c0707ea;	
+}
+
+.foot span{
+	color: #29c0d4;
+	font-weight: bold;
+}
+.foot p {
+	color: #ffffff;
 }
 .footer-top, .footer-bottom{
 	background: #27292B;
@@ -1710,7 +1718,7 @@ footer .links li a{
 }
 
 .footer-bottom{
-	padding: 30px 0 25px 0;
+	padding: 1px 0 1px 0;
 }
 .footer-bottom ul li{
 	display: inline-block;
@@ -1757,10 +1765,14 @@ footer .social{
 .social li:hover i{
 	color: #fff;
 }
+.img-fluid {
+	width: 100px;
+}
 .coopring p{
-	padding: 5px 0 0 0;
+	padding: 2px 0 0 0;
 	margin: 0;
 	font-size: 14px;
+	text-align: right;
 }
 footer .social li{
 	width: 56px;
@@ -1786,6 +1798,10 @@ footer .tags a{
 .footer-3 .logo-footer,
 .footer-3 .social{
 	float: none !important;
+}
+
+.footer-3 .span{
+	text-align:left;
 }
 
 /* Top -----------------------------------------------------*/
