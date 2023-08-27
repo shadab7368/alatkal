@@ -330,7 +330,7 @@ div.fontawesome-icon-list a{
 .style-dark .boxes-info,
 .style-dark .is-sticky header,
 .style-dark .item-table{
-	color: #dedede !important;
+	color: #fdfeff !important;
 	background: #232323;
 	background-color: #232323;
 }
@@ -1274,14 +1274,14 @@ header{
 
 /* Boxes Info ----------------------------------------------*/
 .boxes-info{
-	background-color: #fff;
+	background-color: #051a24;
 	text-align: left;
 	padding: 15px;
 	border: solid 1px #ffffff;
 }
 .boxes-info h3{
 	font-weight: 600;
-	color: #333 !important;
+	color: #04ecc2 !important;
 }
 .boxes-info h3 i{
 	float: right;
@@ -1295,7 +1295,7 @@ header{
 	font-weight: 800;	
 }
 .boxes-info p{
-	color: #777 !important;
+	color: #04ecc2 !important;
 }
 
 /*  Clients ------------------------------------------------*/

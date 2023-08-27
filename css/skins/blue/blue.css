@@ -27,6 +27,7 @@ footer .btn-primary:hover,
 .jRibbon,
 .downarrow,
 .line,
+
 .header-v3,
 .line-slide,
 .skin_base{
@@ -65,7 +66,7 @@ footer .btn-primary:hover,
 .info-head ul li a:hover,
 .footer-center .item-center:hover i,
 .pagination > li > a, .pagination > li > span,
-
+.boxes-info i,
 .title-subtitle span,
 .clients .title-downloads:first-letter,
 .subtitle-downloads h4 i,
@@ -95,6 +96,7 @@ address i,
 .head-service h5,
 .titles-heading h1 i,
 .boxes-info h5,
+
 .foot,
 .custom_input_file i{
 	color: #29c0d4 !important;
